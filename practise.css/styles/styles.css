@@ -9,18 +9,10 @@ h2{
     font-style: italic;
     color: rgb(56, 3, 248);
 }
-.building{
 
-    border-radius: 15px;  
-}
-.building :hover{
-
-    box-shadow: 0px 5px 20px 2px green;
-}
-
-.timestower {
-   
-    box-shadow: 5px 10px orange;
+.contacts {
+  font-style:normal;
+  color: rgb(21, 243, 13);
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -52,7 +44,7 @@ h2{
   
 body{
     
-    background-image: url("images/Sunset.jpg");
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/#");
     background-repeat: no-repeat;
     background-size: 1500px;
     text-align: center;
@@ -76,4 +68,19 @@ body{
   padding: 5px 11px;
   font-size: 16px;
 
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
