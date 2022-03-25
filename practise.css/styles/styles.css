@@ -1,7 +1,7 @@
 
 h1{
     color: rgb(242, 242, 248);
-   background-color: blue; 
+   background-color: rgb(83, 18, 235); 
    font-style: normal;
 }
 
@@ -44,7 +44,7 @@ h2{
   
 body{
     
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/#");
+  background-color: bisque;
     background-repeat: no-repeat;
     background-size: 1500px;
     text-align: center;
@@ -84,3 +84,40 @@ body{
 .container {
   padding: 2px 16px;
 }
+/* Style the search box */
+#mySearch {
+  width: 60%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 6px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: rgb(247, 250, 255);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
