@@ -1,13 +1,21 @@
-
+body{
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
 h1{
-    color: rgb(242, 242, 248);
+    color: rgb(250, 250, 250);
    background-color: rgb(83, 18, 235); 
    font-style: normal;
 }
 
 h2{
     font-style: italic;
-    color: rgb(56, 3, 248);
+    color: rgb(13, 37, 245);
 }
 
 .contacts {
@@ -42,16 +50,6 @@ h2{
     color: white;
   }
   
-body{
-    
-  background-color: bisque;
-    background-repeat: no-repeat;
-    background-size: 1500px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    
-}
 .button {
     transition-duration: 0.4s;
     padding: 15px 32px;
