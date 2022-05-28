@@ -1,13 +1,11 @@
 body{
-    background-color: #f2f2f2;
-    background-repeat: no-repeat;
-    background-size: 1500px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    
+  background-image: url(practise.css\styles\images\marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 h1{
+  text-align: center;
     color: rgb(250, 250, 250);
    background-color: rgb(83, 18, 235); 
    font-style: normal;
@@ -17,7 +15,16 @@ h2{
     font-style: italic;
     color: rgb(13, 37, 245);
 }
-
+.home{
+  text-align: center;
+  margin-top: 2cm;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2cm;
+}
+.signin{
+  text-align: center;
+  
+}
 .contacts {
   font-style:normal;
   color: rgb(21, 243, 13);
@@ -84,7 +91,9 @@ h2{
 }
 /* Style the search box */
 #mySearch {
-  width: 60%;
+  text-align: center;
+  
+  width: 100%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
@@ -92,6 +101,7 @@ h2{
 
 /* Style the navigation menu */
 #myMenu {
+  text-align: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -107,15 +117,6 @@ h2{
 
 #myMenu li a:hover {
   background-color: rgb(247, 250, 255);
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
 }
 
 
